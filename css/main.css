@@ -1,0 +1,132 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Montserrat'sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+}
+/***** GRID *****/
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 600px;
+    float: left;
+}
+ .third-width {
+    width: 400px;
+    float: left;
+ }
+
+/***** HEADER *****/
+
+header h1{
+    font-weight: 900px;
+    padding: 38px 0;
+    margin: 30px;
+}
+header h1 span{
+    color: #77a466;
+}
+header h1{
+    color: black;
+}
+header nav{
+    color: #77a466;
+    float: right;
+    padding: 46px 0;
+}
+header nav ul li{
+    text-transform: uppercase;
+    display: inline;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 10px; 
+}
+header nav li a{
+    color: #77a466;
+    text-decoration: none;
+}
+
+/***** Main *****/
+
+.main-image {
+    float: left;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.main-image img {
+    border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+}
+.about h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+    color: #77a466;
+}
+.about p{
+    line-height: 25px;
+    font-size: 16px;
+}
+
+/***** Thirds *****/
+
+.first-section,
+.second-section,
+.third-section {
+    width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+}
+.bottom-section h3{
+    font-family: 'montserrat bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.first-section ul{
+    font-size: 16px;
+    line-height: 40px;
+    color: #77a466;
+    padding: 5px 0;
+    list-style: none;
+}
+.second-section,.third-section{
+    font-size: 16px;
+    line-height: 24px
+}
+.second-section{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 10px 0;
+}
+.third-section{
+    padding: 10px 10px;
+
+}
+
+/***** FOOTER *****/
+
+footer{
+    height: 50px;
+    border-top: 3px solid #eee;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+footer span {
+    font-family: 'Galada', cursive;
+    text-transform: lowercase;
+    color: #77a466;
+    font-size: 14px;
+}
+
+
+
+
